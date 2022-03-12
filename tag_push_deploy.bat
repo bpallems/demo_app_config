@@ -1,4 +1,5 @@
-COPY %WORKSPACE%\webapp\target\webapp.war %WORKSPACE%
+REM COPY %WORKSPACE%\webapp\target\webapp.war %WORKSPACE%
+COPY D:\D-Drive\IMP\docker\scripts\wars\webapp.war %WORKSPACE%
 REM docker stop simple-regapp
 REM docker rm simple-regapp
 echo "---"
